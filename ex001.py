@@ -1,5 +1,4 @@
 print ('hello word')
-mensage = ('hi friend')
-print (mensage)
-average=int(input('tell your average: '))
- 
+mensage = ('hi new friend!!')
+print (mensage) 
+ #para dar sorte :)!

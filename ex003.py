@@ -1,3 +1,4 @@
+#conhecimentos sobre operadores aritmetricos 
 num=int(input('write one number: '))      
 numless=(num-1) #a subtração do numero sera igual ao seu antecessor
 numplus=(num+1) #a adição do numero sera igual ao seu sucessor

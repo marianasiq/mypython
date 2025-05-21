@@ -34,5 +34,20 @@ wide=float(input('how wide is your wall? '))
 tall=float(input('how tall is your wall? '))
 area= wide*tall
 print('this is your area in square meters: {} '.format(area))
-
+#media por estrutura de repetição FOR
+soma=0
+for i in range(0,5):
+     nota= int(input('qual sua nota? '))
+     soma+=nota
+print(soma)
+print('a sua media de nota é: ',soma/5) 
+#media por estrutura de repetição while
+number=0
+soma=0
+while number<5 :
+    nota= float(input("qual a sua nota? "))
+    soma+= nota
+    number+=1
+print(soma)
+print("a sua média é: ", soma/5)  
 

@@ -9,3 +9,16 @@ co=float(input('what value of the opposite leg? '))
 ca=float(input('what value of the adjacente leg? '))
 hypo=math.hypot(co, ca) #existe uma importação com o valor direto da hipotenusa
 print('This is a hypotenuse: {:.2f}'.format(hypo))  
+
+#funções
+def ler_celsius():
+    celsius = float(input('qual a temperatura?'))
+    return celsius
+def converção(celsius):
+      converção = ((9*celsius+160)/5)
+      return converção
+def valor_converção(converção):
+       print(converção)
+celsius = ler_celsius()
+converção = converção(celsius)
+print(converção) #mostra a converção de c para F 

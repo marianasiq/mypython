@@ -8,7 +8,14 @@ print('lets calculate the hypotenuse of a right triangle! ')
 co=float(input('what value of the opposite leg? '))
 ca=float(input('what value of the adjacente leg? '))
 hypo=math.hypot(co, ca) #existe uma importação com o valor direto da hipotenusa
-print('This is a hypotenuse: {:.2f}'.format(hypo))  
+print('This is a hypotenuse: {:.2f}'.format(hypo)) 
+
+import datetime as dt #com essa importação conseguimos dados de temperatura ou datas
+hora= dt.datetime.now()
+print(hora)
+
+import random #gera numeros aleatorio
+print (random.randrange(0, 10))#numeros aleatorios no range de 0 a 10 
 
 #funções
 def ler_celsius():
